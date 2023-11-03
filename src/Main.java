@@ -27,6 +27,7 @@ public class Main {
             System.out.println("Increase" + employee.increase());
             System.out.println("Total salary with tax and bonus:" + totalSalary);
             System.out.println("Total salary with increase" +(totalSalary + employee.increase()) );
+            scan.close();
 
 
         }
